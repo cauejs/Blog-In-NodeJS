@@ -1,4 +1,19 @@
 {
+  "name": "blogapp",
+  "version": "1.0.0",
+  "description": "Blog created in NodeJS, the system is simple, but you can already have some idea of ​​how NodeJS works.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app"
+  },
+  "author": {
+		"name": "zMatheusPro",
+		"email": "zm4theuspro@gmail.com",
+		"url": "https://zmatheuspro.info/"
+	},
+  "repository": "zMatheusPro/Blog-In-NodeJS",
+  "license": "GPL-3.0",
   "dependencies": {
     "body-parser": "^1.19.0",
     "express": "^4.17.1",
