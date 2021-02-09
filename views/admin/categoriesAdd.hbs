@@ -1,0 +1,15 @@
+<h3>New category:</h3>
+
+<div class="card">
+    <div class="card-body">
+        <form action="/admin/category/new" method="POST">
+            <label for="name">Name: </label>
+            <input type="text" id="name" name="name" placeholder="Category name" class="form-control">
+
+            <label for="slug">Slug: </label>
+            <input type="text" id="slug" name="slug" placeholder="Category slug" class="form-control">
+            <br>
+            <button type="submit" class="btn btn-success">Criar categoria</button>
+        </form>
+    </div>
+</div>
