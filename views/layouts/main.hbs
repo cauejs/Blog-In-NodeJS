@@ -1,19 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="/css/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/style.css">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{appName}} - {{title}}</title>
 </head>
+
 <body>
     {{>_navbar}}
     <div class="container mt-4">
-        {{>_msg}}
-        {{{body}}}
+        <div id="page">
+            <div class="page-sidebar">
+                <div class="panel">
+                    {{>_sidebar}}
+                </div>
+            </div>
+            <div class="page-main">
+                <div class="body">
+                    {{>_msg}}
+                    {{{body}}}
+                </div>
+            </div>
+        </div>
     </div>
 </body>
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"
+    integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU"
+    crossorigin="anonymous"></script>
 <script src="/js/bootstrap/bootstrap.min.js"></script>
+
 </html>
